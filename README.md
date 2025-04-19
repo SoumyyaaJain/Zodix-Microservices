@@ -1,5 +1,6 @@
 **🌌 Zodix Project: Microservices Execution, Architecture & Deployment Guide
-**
+**  
+
 **🧠 What Is This Project About?**
 Zodix is an astrology-based web application that:
 Lets users register and securely log in.
