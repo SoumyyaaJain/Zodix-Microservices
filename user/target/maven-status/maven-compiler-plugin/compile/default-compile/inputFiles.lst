@@ -1,0 +1,8 @@
+/Users/soumyyaa_jain/Desktop/C173_C185_MA_Project_Phase3/user/src/main/java/com/zodix/user/UserApplication.java
+/Users/soumyyaa_jain/Desktop/C173_C185_MA_Project_Phase3/user/src/main/java/com/zodix/user/controller/UserController.java
+/Users/soumyyaa_jain/Desktop/C173_C185_MA_Project_Phase3/user/src/main/java/com/zodix/user/dto/LoginRequest.java
+/Users/soumyyaa_jain/Desktop/C173_C185_MA_Project_Phase3/user/src/main/java/com/zodix/user/dto/RegisterRequest.java
+/Users/soumyyaa_jain/Desktop/C173_C185_MA_Project_Phase3/user/src/main/java/com/zodix/user/entity/User.java
+/Users/soumyyaa_jain/Desktop/C173_C185_MA_Project_Phase3/user/src/main/java/com/zodix/user/repository/UserRepository.java
+/Users/soumyyaa_jain/Desktop/C173_C185_MA_Project_Phase3/user/src/main/java/com/zodix/user/security/SecurityConfig.java
+/Users/soumyyaa_jain/Desktop/C173_C185_MA_Project_Phase3/user/src/main/java/com/zodix/user/service/UserService.java

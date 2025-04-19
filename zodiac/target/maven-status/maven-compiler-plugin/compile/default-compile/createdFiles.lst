@@ -1,0 +1,7 @@
+com/zodix/zodiac/dto/ZodiacRequest.class
+com/zodix/zodiac/ZodiacApplication.class
+com/zodix/zodiac/dto/ZodiacResponse.class
+com/zodix/zodiac/entity/Zodiac.class
+com/zodix/zodiac/repository/ZodiacRepository.class
+com/zodix/zodiac/controller/ZodiacController.class
+com/zodix/zodiac/service/ZodiacService.class
