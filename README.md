@@ -2,14 +2,20 @@
 **  
 
 **🧠 What Is This Project About?**
+Zodix is an astrology-based web application that:
 
---> Zodix is an astrology-based web application that:
 -->Lets users register and securely log in.
+
 -->Offers detailed zodiac sign traits.
+
 -->Provides compatibility information between signs.
+
 -->Uses a Spring Boot microservices architecture.
+
 -->Is containerized using Docker and orchestrated via Kubernetes (KIND).
+
 -->Each component is built as an independent microservice communicating over REST and registered via Eureka.
+
 
 **🔧 Prerequisites**
 Before running this project, ensure the following are installed:
