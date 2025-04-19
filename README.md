@@ -1,5 +1,4 @@
-**🌌 Zodix Project: Microservices Execution, Architecture & Deployment Guide
-**  
+**🌌 Zodix Project: Microservices Execution, Architecture & Deployment Guide**  
 
 **🧠 What Is This Project About?**
 Zodix is an astrology-based web application that:
@@ -49,6 +48,7 @@ zodiac-service
 compatibility-service
 frontend-service
 
+
 **🧩 Service Breakdown**
 
 1️⃣ Config Server
@@ -56,6 +56,7 @@ frontend-service
 🧠 Purpose: Centralized config for all services.
 🔗 Endpoint: http://localhost:8888/user-service/default
 ✅ Use: Ensures externalized config and flexible environments.
+
 
 2️⃣ Eureka Server
 📍 Port: 8761
@@ -96,7 +97,7 @@ http://localhost:8080/zodiac/aries
 🔗 Endpoint: http://localhost:8085/home
 ✅ Use: Helps visualize microservice flow.
 
-🔄 API Gateway Routing Tests
+**🔄 API Gateway Routing Tests**
 http://localhost:8080/user/hello
 http://localhost:8080/zodiac/aries
 http://localhost:8080/compatibility/aries-taurus
@@ -148,12 +149,12 @@ kubectl get services
 
 📂 Folder Structure:
 k8s/
-  |- config-server.yaml
-  |- eureka-server.yaml
-  |- api-server.yaml
-  |- user-service.yaml
-  |- zodiac-service.yaml
-  |- compatibility-service.yaml
+|- config-server.yaml
+|- eureka-server.yaml
+|- api-server.yaml
+|- user-service.yaml
+|- zodiac-service.yaml
+|- compatibility-service.yaml
 
 **💡 Future Suggestions**
 ✅ Implement JWT-based security across services.
