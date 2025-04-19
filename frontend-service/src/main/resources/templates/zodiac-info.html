@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Zodiac Info</title>
+</head>
+
+<body>
+    <h1 th:text="'Sign: ' + ${zodiac.sign}"></h1>
+    <p th:text="'Element: ' + ${zodiac.element}"></p>
+    <p th:text="'Color: ' + ${zodiac.color}"></p>
+    <p th:text="'Compatible Sign: ' + ${zodiac.compatibleSign}"></p>
+</body>
+
+</html>
