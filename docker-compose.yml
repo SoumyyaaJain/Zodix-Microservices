@@ -1,0 +1,62 @@
+version: '3.8'
+
+services:
+  eureka-server:
+    image: eurekaserver
+    build: ./eurekaserver
+    ports:
+      - "8761:8761"
+    networks:
+      - microservices-network
+
+  apiserver:
+    image: apiserver
+    build: ./apiserver
+    ports:
+      - "8080:8080"
+    depends_on:
+      - eureka-server
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+    networks:
+      - microservices-network
+
+  user-service:
+    image: user-service
+    build: ./user
+    ports:
+      - "8081:8081"
+    depends_on:
+      - eureka-server
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+    networks:
+      - microservices-network
+
+  zodiac-service:
+    image: zodiac-service
+    build: ./zodiac
+    ports:
+      - "8082:8082"
+    depends_on:
+      - eureka-server
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+    networks:
+      - microservices-network
+
+  compatibility-service:
+    image: compatibility-service
+    build: ./compatibility
+    ports:
+      - "8083:8083"
+    depends_on:
+      - eureka-server
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+    networks:
+      - microservices-network
+
+networks:
+  microservices-network:
+    driver: bridge

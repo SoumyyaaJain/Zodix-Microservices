@@ -1,0 +1,5 @@
+com/zodix/compatibility/service/CompatibilityService.class
+com/zodix/compatibility/controller/CompatibilityController.class
+com/zodix/compatibility/repository/CompatibilityRepository.class
+com/zodix/compatibility/entity/Compatibility.class
+com/zodix/compatibility/CompatibilityApplication.class
